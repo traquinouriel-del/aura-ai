@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Disallow: /perfil
+Disallow: /login
+Disallow: /dashboard
+Disallow: /pin
+Disallow: /configuracoes
+Disallow: /historico
+
+Sitemap: https://auraai.app/sitemap.xml

@@ -1,0 +1,11 @@
+[functions.send-aura-otp]
+verify_jwt = false
+
+[functions.send-support-ticket]
+verify_jwt = false
+
+[functions.verify-aura-otp]
+verify_jwt = false
+
+[functions.sedux-generate]
+verify_jwt = true

@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="pt-PT" class="theme-dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Primary Meta Tags -->
+    <title>Aura AI — IA para Conversas Inteligentes e Respostas Personalizadas</title>
+    <meta name="description" content="Aura AI é uma inteligência artificial que analisa conversas, interpreta o contexto e cria respostas naturais, personalizadas e inteligentes para diferentes situações sociais." />
+    <meta name="theme-color" content="#0a0a0f" />
+    <meta name="robots" content="noindex, nofollow" />
+    <link rel="canonical" href="https://auraai.app/" />
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/svg+xml" href="/aura.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+
+    <!-- Open Graph -->
+    <meta property="og:site_name" content="Aura AI" />
+    <meta property="og:title" content="Aura AI — IA para Conversas Inteligentes e Respostas Personalizadas" />
+    <meta property="og:description" content="Aura AI analisa conversas, interpreta o contexto e cria respostas naturais e inteligentes para ti." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://auraai.app/" />
+    <meta property="og:locale" content="pt_PT" />
+    <meta property="og:image" content="https://auraai.app/og-banner.png" />
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:creator" content="@AuraAI" />
+    <meta name="twitter:title" content="Aura AI — IA para Conversas Inteligentes" />
+    <meta name="twitter:description" content="Cria respostas naturais, personalizadas e inteligentes para qualquer conversa." />
+    <meta name="twitter:image" content="https://auraai.app/og-banner.png" />
+
+    <!-- hreflang alternates -->
+    <link rel="alternate" hreflang="pt-PT" href="https://auraai.app/" />
+    <link rel="alternate" hreflang="en" href="https://auraai.app/" />
+    <link rel="alternate" hreflang="es" href="https://auraai.app/" />
+    <link rel="alternate" hreflang="fr" href="https://auraai.app/" />
+    <link rel="alternate" hreflang="de" href="https://auraai.app/" />
+    <link rel="alternate" hreflang="x-default" href="https://auraai.app/" />
+
+    <!-- Security Headers -->
+    <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+    <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://fonts.googleapis.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https: blob:; connect-src 'self' https://ipapi.co https://*.supabase.co https://api.groq.com https://api.openai.com https://generativelanguage.googleapis.com; frame-src 'none'; object-src 'none';" />
+
+    <!-- Performance: Preconnect & Preload -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://ipapi.co" />
+    <link rel="preconnect" href="https://*.supabase.co" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+
+    <!-- Structured Data: JSON-LD SoftwareApplication -->
+    <script type="application/ld+json" id="aura-schema">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Aura AI",
+      "applicationCategory": "SocialNetworkingApplication",
+      "applicationSubCategory": "Lifestyle",
+      "operatingSystem": "Web",
+      "url": "https://auraai.app/",
+      "description": "Aura AI é uma inteligência artificial que analisa conversas, interpreta o contexto e cria respostas naturais, personalizadas e inteligentes para diferentes situações sociais.",
+      "image": "https://auraai.app/og-banner.png",
+      "logo": "https://auraai.app/aura.svg",
+      "inLanguage": ["pt-PT", "en", "es", "fr", "de"],
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "EUR"
+      }
+    }
+    </script>
+
+    <script>
+      // Apply theme synchronously before first paint to prevent flash of wrong theme.
+      (function () {
+        try {
+          var t = localStorage.getItem('aura_last_theme');
+          var theme = t === '"light"' || t === 'light' ? 'light' : 'dark';
+          var root = document.documentElement;
+          root.classList.remove('theme-dark', 'theme-light');
+          root.classList.add('theme-' + theme);
+        } catch (e) {
+          document.documentElement.classList.add('theme-dark');
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

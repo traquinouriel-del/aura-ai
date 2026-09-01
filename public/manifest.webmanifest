@@ -1,0 +1,28 @@
+{
+  "name": "Aura AI — IA para Conversas Inteligentes",
+  "short_name": "Aura AI",
+  "description": "Aura AI é uma inteligência artificial que analisa conversas, interpreta o contexto e cria respostas naturais, personalizadas e inteligentes para diferentes situações sociais.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0f",
+  "theme_color": "#0a0a0f",
+  "lang": "pt-PT",
+  "icons": [
+    {
+      "src": "/aura.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}
